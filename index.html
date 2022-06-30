@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS</title>
+</head>
+<body>
+  <div class="racun">  
+    <span>Potrosnja: (lit/100km)</span><input type="number" value="6.5" id="potrosnja">
+      <br>
+    <span>Cijena: (KM/lit)</span><input type="number" value="3.56" id="cijena">
+      <br>
+    <span>Udaljenost: (km)</span><input type="number" value="28" id="udaljenost">
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="obasmjera">
+        <label for="obasmjera">Obracunaj put u oba smjera</label>  
+      </div>
+      
+    <button class="desni-button" onclick="izracunaj()">Izracunaj</button>
+      <br><br>
+    <span class="info-1">Tvoje auto za litar goriva <span></span> prelazi<span class="circle">?</span>.</span>
+    <span class="info-2">Auto treba<span class="circle">?</span>litara za udaljenost od<span class="circle">?</span>kilometara i to kosta<span class="circle">?</span>KM.</span>   
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
